@@ -7,7 +7,7 @@ namespace TestTime
     {
         public static string Log(this SystemTime time)        
         {
-            return $"ST: {time.Day}-{time.Month}-{time.Year} {time.Hour:d2}:{time.Minute:d2}";
+            return  $"ST: {time.Day}-{time.Month}-{time.Year} {time.Hour:d2}:{time.Minute:d2}";
         }
 
     
